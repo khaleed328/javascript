@@ -1,25 +1,12 @@
-
-function calcSumOfNums() {
-    const num1 = prompt("Enter First Number: ");
-    const num2 = prompt("Enter Second Number; ");
-
-    console.log(Number(num1) + parseInt(num2));
-}
-
-calcSumOfNums();
-
-//type conversion
-// numbers to strings tostring, string
-// 60 ==> '60'
-const num = 98;
-console.log(typeof num);
-console.log(typeof num.toString());
-console.log(typeof String(num));
-
-// strings to number // ade // '98' -- 98
-// Number parselnt
-const myStr = '100';
-console.log(typeof myStr);
-console.log(typeof Number(myStr));
-console.log(typeof parseInt(myStr));
-console.log(parseInt(myStr) * 2);
+const cars = [
+  { name: "Lamborghini Huracan", rentPrice: 100, category: "sport" },
+  { name: "Range Rover Velar", rentPrice: 70, category: "suv" },
+  { name: "Audi R8", rentPrice: 120, category: "sport" },
+  { name: "Mustang", rentPrice: 80, category: "vintage" },
+  { name: "Porche 911", rentPrice: 120, category: "sport" },
+  { name: "Chevrolet Camaro 1970", rentPrice: 80, category: "vintage" },
+  { name: "Rolls Royce", rentPrice: 70, category: "sport" },
+  { name: "Tesla Model X", rentPrice: 120, category: "suv" },
+  { name: "BMW X5", rentPrice: 40, category: "suv" },
+  { name: "Volkswagen Beetle 1972", rentPrice: 30, category: "vintage" },
+];
